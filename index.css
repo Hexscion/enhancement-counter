@@ -1,0 +1,111 @@
+/* size */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(102, 0, 102, 0.6);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(102, 0, 102, 1);
+  border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+}
+
+#main {
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    overflow: auto;
+    height: 500px;
+    width: 400px;
+    background: url('bdo.jpg') no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+h2 {
+    font-size: 80px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+p {
+    height: 70px;
+    width: 350px;
+    overflow: auto;
+    margin: 0 auto;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-size: 20px;
+}
+
+#para-scroll {
+    height: 70px;
+    width: 350px;
+    margin: 0 auto;
+    padding: 5px;
+    background: rgba(1, 1, 1, 0.4);
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    color: white;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 30px ;
+    width: 200px;
+    border-radius: 5px;
+    text-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px black;
+}
+
+#fail-btn {
+    margin-top: 30px; 
+    background: rgba(153, 0, 0, 0.8)
+}
+
+#fail-btn:hover {
+    background: rgba(153, 0, 0, 1)
+}
+
+#success-btn {
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    background: rgba(0, 0, 153, 0.8)
+}
+
+#success-btn:hover {
+    background: rgba(0, 0, 153, 1)
+}
+
